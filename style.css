@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Apply styles to the navigation menu */
+.navbar {
+  background-color: #004030;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0 10px;
+}
+
+/* Apply styles to social icons */
+.navbar-nav.nav.justify-content-end {
+  margin-left: auto;
+}
+
+/* Apply styles to the background image section */
+.background-section {
+  background-image: url('https://courses.ics.hawaii.edu/ics314f22/morea/ui-frameworks/murphys-new-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay-text {
+   /* Adjust the overlay color and transparency */
+  padding: 20px;
+}
+
+.overlay-text h1 {
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+/* Apply styles to the three-column footer */
+.footer {
+  background-color: #004030;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer .row {
+  margin: 0;
+}
+
+.footer .col-md-4 {
+  flex: 1;
+}
